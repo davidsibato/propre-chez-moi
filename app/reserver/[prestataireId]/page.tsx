@@ -10,7 +10,7 @@ import { getCurrency, formatWithUSD } from "@/lib/currency";
 import { ChevronLeft, CheckCircle, Smartphone, CreditCard, Info } from "lucide-react";
 
 type Step = "details" | "paiement" | "confirmation";
-type MethodePaiement = "airtel_money" | "orange_money" | "card" | "paypal";
+type MethodePaiement = "airtel_money" | "mpesa" | "orange_money" | "card" | "paypal";
 
 const METHODES = [
   { id: "airtel_money" as const, label: "Airtel Money", emoji: "📱", desc: "Paiement mobile rapide" },
