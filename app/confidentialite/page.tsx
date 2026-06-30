@@ -15,7 +15,7 @@ export default function ConfidentialitePage() {
         { heading: "4. Sécurité", body: "Vos données sont stockées de manière sécurisée sur des serveurs en Europe via Supabase. Les paiements sont traités par des prestataires certifiés (Airtel Money, Orange Money, Stripe). Nous appliquons le chiffrement en transit (HTTPS/TLS) et au repos." },
         { heading: "5. Vos droits", body: "Vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Pour exercer ces droits, contactez-nous à : contact@proprechezvous.cg. Nous répondrons dans un délai de 30 jours." },
         { heading: "6. Cookies", body: "Nous utilisons uniquement des cookies techniques essentiels au fonctionnement du site (session, préférence de langue). Aucun cookie publicitaire ou de suivi tiers n'est utilisé." },
-        { heading: "7. Contact", body: "Pour toute question relative à cette politique, écrivez-nous à contact@proprechezvous.cg ou à l'adresse : PropreChezVous, Brazzaville, République du Congo." },
+        { heading: "7. Contact", body: "Pour toute question relative à cette politique, écrivez-nous à contact@proprechezvous.cg ou à l'adresse : PropreChezVous, Kinshasa, République Démocratique du Congo." },
       ],
     },
     en: {
@@ -28,7 +28,7 @@ export default function ConfidentialitePage() {
         { heading: "4. Security", body: "Your data is stored securely on European servers via Supabase. Payments are processed by certified providers (Airtel Money, Orange Money, Stripe). We apply encryption in transit (HTTPS/TLS) and at rest." },
         { heading: "5. Your rights", body: "You have the right to access, correct, delete, and export your personal data. To exercise these rights, contact us at: contact@proprechezvous.cg. We will respond within 30 days." },
         { heading: "6. Cookies", body: "We only use essential technical cookies required for the site to function (session, language preference). No advertising or third-party tracking cookies are used." },
-        { heading: "7. Contact", body: "For any questions about this policy, write to us at contact@proprechezvous.cg or at: PropreChezVous, Brazzaville, Republic of Congo." },
+        { heading: "7. Contact", body: "For any questions about this policy, write to us at contact@proprechezvous.cg or at: PropreChezVous, Kinshasa, Democratic Republic of Congo." },
       ],
     },
     es: {
@@ -41,7 +41,7 @@ export default function ConfidentialitePage() {
         { heading: "4. Seguridad", body: "Tus datos se almacenan de forma segura en servidores europeos a través de Supabase. Los pagos son procesados por proveedores certificados (Airtel Money, Orange Money, Stripe). Aplicamos cifrado en tránsito (HTTPS/TLS) y en reposo." },
         { heading: "5. Tus derechos", body: "Tienes derecho a acceder, rectificar, eliminar y exportar tus datos personales. Para ejercer estos derechos, contáctanos en: contact@proprechezvous.cg. Responderemos en un plazo de 30 días." },
         { heading: "6. Cookies", body: "Solo utilizamos cookies técnicas esenciales para el funcionamiento del sitio (sesión, preferencia de idioma). No se utilizan cookies publicitarias ni de seguimiento de terceros." },
-        { heading: "7. Contacto", body: "Para cualquier pregunta sobre esta política, escríbenos a contact@proprechezvous.cg o a: PropreChezVous, Brazzaville, República del Congo." },
+        { heading: "7. Contacto", body: "Para cualquier pregunta sobre esta política, escríbenos a contact@proprechezvous.cg o a: PropreChezVous, Kinshasa, República Democrática del Congo." },
       ],
     },
   }[lang];

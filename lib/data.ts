@@ -268,3 +268,8 @@ export const quartiersKinshasa = [
 export const quartiersPointeNoire = [
   "Loandjili", "Tié-Tié", "Ngoyo", "Mvou-Mvou", "Centre-ville",
 ];
+
+export const quartiersLubumbashi = [
+  "Lubumbashi", "Kamalondo", "Katuba", "Kenya", "Kampemba",
+  "Annexe", "Rwashi", "Ruashi", "Kimilolo", "Golf",
+];

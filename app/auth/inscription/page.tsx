@@ -6,7 +6,7 @@ import { supabase } from "@/lib/supabase";
 import { setCurrentUser } from "@/lib/store";
 import { useI18n } from "@/lib/i18n-context";
 import { User } from "@/lib/types";
-import { villes, quartiersBrazzaville, quartiersKinshasa, quartiersPointeNoire } from "@/lib/data";
+import { villes, quartiersBrazzaville, quartiersKinshasa, quartiersPointeNoire, quartiersLubumbashi } from "@/lib/data";
 import { UserCheck } from "lucide-react";
 
 function InscriptionForm() {
@@ -25,6 +25,7 @@ function InscriptionForm() {
   const quartiers =
     ville === "Brazzaville" ? quartiersBrazzaville
     : ville === "Kinshasa" ? quartiersKinshasa
+    : ville === "Lubumbashi" ? quartiersLubumbashi
     : quartiersPointeNoire;
 
   async function handleSubmit(e: React.FormEvent) {

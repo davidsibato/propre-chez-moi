@@ -50,7 +50,10 @@ export default function ConnexionPage() {
               <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} className={inputCls} placeholder="vous@email.com" />
             </div>
             <div>
-              <label className="block text-sm font-semibold text-gray-800 dark:text-gray-100 mb-1.5">{t("login_password")}</label>
+              <div className="flex justify-between items-center mb-1.5">
+                <label className="block text-sm font-semibold text-gray-800 dark:text-gray-100">{t("login_password")}</label>
+                <Link href="/auth/reset-password" className="text-xs text-emerald-700 dark:text-emerald-400 hover:underline">{t("login_forgot")}</Link>
+              </div>
               <input type="password" required value={password} onChange={(e) => setPassword(e.target.value)} className={inputCls} placeholder="••••••••" />
             </div>
             {error && <p className="text-red-600 dark:text-red-400 text-sm font-medium">{error}</p>}

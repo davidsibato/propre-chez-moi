@@ -14,6 +14,7 @@ type MethodePaiement = "airtel_money" | "orange_money" | "card" | "paypal";
 
 const METHODES = [
   { id: "airtel_money" as const, label: "Airtel Money", emoji: "📱", desc: "Paiement mobile rapide" },
+  { id: "mpesa" as const, label: "M-Pesa", emoji: "💚", desc: "Paiement mobile Vodacom" },
   { id: "orange_money" as const, label: "Orange Money", emoji: "🟠", desc: "Paiement mobile Orange" },
   { id: "card" as const, label: "Carte bancaire", emoji: "💳", desc: "Visa, Mastercard" },
   { id: "paypal" as const, label: "PayPal", emoji: "🅿️", desc: "Compte PayPal" },
